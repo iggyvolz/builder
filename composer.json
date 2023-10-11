@@ -1,0 +1,19 @@
+{
+  "require": {
+    "iggyvolz/classgen": "^0.3",
+    "nette/php-generator": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "iggyvolz\\builder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "iggyvolz\\builder\\example\\": "example/"
+    }
+  },
+  "require-dev": {
+    "nette/tester": "^2.5"
+  }
+}
